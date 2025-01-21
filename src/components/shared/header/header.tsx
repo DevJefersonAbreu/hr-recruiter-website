@@ -21,11 +21,11 @@ const Header: React.FC = () => {
       </S.MenuToggle>
       <S.Nav $isOpen={isMenuOpen}>
         <Link href="/" passHref><S.NavItem onClick={() => setIsMenuOpen(false)}>Início</S.NavItem></Link>
-        <Link href="/sobre" passHref><S.NavItem onClick={() => setIsMenuOpen(false)}>Sobre</S.NavItem></Link>
-        <Link href="/servicos" passHref><S.NavItem onClick={() => setIsMenuOpen(false)}>Serviços</S.NavItem></Link>
-        <Link href="/agendamento" passHref><S.NavItem onClick={() => setIsMenuOpen(false)}>Agendamento</S.NavItem></Link>
+        <Link href="/about" passHref><S.NavItem onClick={() => setIsMenuOpen(false)}>Sobre</S.NavItem></Link>
+        <Link href="/services" passHref><S.NavItem onClick={() => setIsMenuOpen(false)}>Serviços</S.NavItem></Link>
+        <Link href="/scheduling" passHref><S.NavItem onClick={() => setIsMenuOpen(false)}>Agendamento</S.NavItem></Link>
         <Link href="/blog" passHref><S.NavItem onClick={() => setIsMenuOpen(false)}>Blog</S.NavItem></Link>
-        <Link href="/contato" passHref><S.NavItem onClick={() => setIsMenuOpen(false)}>Contato</S.NavItem></Link>
+        <Link href="/contact" passHref><S.NavItem onClick={() => setIsMenuOpen(false)}>Contato</S.NavItem></Link>
       </S.Nav>
     </S.Header>
   );
