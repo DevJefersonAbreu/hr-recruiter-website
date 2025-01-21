@@ -32,11 +32,37 @@ body {
 
 a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: none !important; /* Força a remoção do sublinhado */
+  border: none !important; /* Remove bordas */
+  outline: none !important; /* Remove linhas ao focar */
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+a:hover,
+a:focus {
+  text-decoration: none !important; /* Sem sublinhado no hover */
+  color: inherit; /* Garante que a cor não mude */
+  border: none; /* Garante remoção de bordas */
+  outline: none; /* Sem linha de foco */
+}
+
+/* Específico para logo */
+.logo {
+  text-decoration: none !important;
+  border: none !important;
+  outline: none !important;
+  color: var(--foreground);
+  font-weight: bold;
+}
+
+/* Específico para nav items */
+.navItem {
+  text-decoration: none !important;
+  border: none !important;
+  outline: none !important;
+  color: var(--foreground);
+  transition: color 0.3s ease; /* Adiciona um hover suave */
+}
+
+.navItem:hover {
+  color: var(--foreground); /* Mantém a cor sem alteração */
 }
