@@ -35,9 +35,11 @@ export const MenuToggle = styled.button`
   border: none;
   color: ${theme.colors.background};
   cursor: pointer;
+  z-index: 1010;
 
   @media (max-width: ${theme.breakpoints.md}) {
     display: block;
+    z-index: 1010;
   }
 `;
 
@@ -45,6 +47,7 @@ export const Nav = styled.nav<{ $isOpen: boolean }>`
   display: flex;
   gap: 1rem;
   text-decoration: none;
+  z-index: 1010;
 
   @media (max-width: ${theme.breakpoints.md}) {
     display: ${({ $isOpen }) => ($isOpen ? 'flex' : 'none')};
@@ -57,6 +60,7 @@ export const Nav = styled.nav<{ $isOpen: boolean }>`
     background-color: ${theme.colors.primary};
     padding: 1rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    z-index: 1010;
   }
 `;
 
@@ -65,6 +69,7 @@ export const NavItem = styled.a`
   color: ${theme.colors.background};
   font-weight: 500;
   transition: color 0.3s ease;
+  z-index: 1010;
 
   &:hover,
   &:focus,
@@ -75,5 +80,6 @@ export const NavItem = styled.a`
 
   @media (max-width: ${theme.breakpoints.md}) {
     padding: 0.5rem 0;
+    z-index: 1010;
   }
 `;
