@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HR Recruiter Website  
 
-## Getting Started
+Bem-vindo ao **HR Recruiter Website**, um projeto desenvolvido para uma recrutadora de RH. O site foi construído utilizando as tecnologias modernas **Next.js**, **TypeScript** e **Styled Components**, garantindo alta performance, design responsivo e fácil manutenção.  
 
-First, run the development server:
+## Funcionalidades  
+
+O site conta com as seguintes seções:  
+
+- **Início**: Uma visão geral profissional da recrutadora e seu objetivo no mercado de trabalho.  
+- **Sobre**: Detalhes sobre a recrutadora, incluindo experiência e qualificações.  
+- **Serviços**: Descrição dos serviços oferecidos, como recrutamento, seleção e consultoria em RH.  
+- **Agendamento**: Uma área para marcar consultas ou entrevistas com a recrutadora.  
+- **Blog**: Artigos e dicas sobre mercado de trabalho, gestão de pessoas e tendências em RH.  
+- **Contato**: Formulário para entrar em contato diretamente com a recrutadora.  
+
+## Tecnologias Utilizadas  
+
+- **Next.js**: Framework React para construção de aplicações web modernas.  
+- **TypeScript**: Para maior segurança e organização no desenvolvimento do código.  
+- **Styled Components**: Para estilização dinâmica e manutenção de temas.  
+
+## Visualizar o Site  
+
+Acesse o site ao vivo através do link:  
+👉 [HR Recruiter Website](https://hr-recruiter-website.vercel.app)  
+
+## Como Rodar o Projeto Localmente  
+
+Siga as etapas abaixo para rodar o projeto em sua máquina:  
+
+### Requisitos  
+
+- Node.js instalado.  
+- Gerenciador de pacotes (npm, yarn, pnpm ou bun).  
+
+### Passos  
+
+1. Clone o repositório:  
+   ```bash
+   git clone https://github.com/seu-usuario/hr-recruiter-website.git
+
+
+
+Este é um projeto [Next.js](https://nextjs.org) criado com [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  
+
+## Começando  
+
+Primeiro, inicie o servidor de desenvolvimento:  
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Abra http://localhost:3000 no navegador para ver o resultado.
 
-## Learn More
+Você pode começar a editar a página modificando o arquivo app/page.tsx. As alterações feitas no arquivo são atualizadas automaticamente.
 
-To learn more about Next.js, take a look at the following resources:
+Este projeto utiliza next/font para otimizar e carregar automaticamente Geist, uma nova família de fontes da Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Saiba Mais
+Para aprender mais sobre Next.js, confira os seguintes recursos:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Documentação do Next.js - Saiba mais sobre os recursos e a API do Next.js.
+Aprenda Next.js - Um tutorial interativo sobre Next.js.
+Você também pode visitar o repositório do Next.js no GitHub - sua opinião e contribuições são bem-vindas!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Implantação no Vercel
+A maneira mais fácil de implantar seu aplicativo Next.js é usar a Plataforma Vercel, criada pelos desenvolvedores do Next.js.
